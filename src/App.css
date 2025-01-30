@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Pusatkan konten di layar */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Kartu utama */
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+/* Profil */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Foto profil bulat */
+.profile .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: royalblue;
+  margin-bottom: 10px;
+}
+
+.text2 {
+  padding-top: 5px;
+  color: #696767;
+  font-weight: 200;
+}
+
+/* Nama */
+.profile h1 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Deskripsi */
+.text1 {
+  font-size: 16px;
+  color: #3d3c3c;
+  font-weight: 700;
+}
+
+/* Tombol container */
+.btn {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Tombol sosial */
+.btn_action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  font-weight: bold;
+  background: transparent;
+  padding: 12px 20px;
+  border-radius: 30px;
+  transition: 0.3s;
+  gap: 10px;
+  justify-content: flex-start;
+  border: 2px solid #007bff;
+}
+
+/* Hover efek */
+.btn_action:hover {
+  background: #01244a;
+  color: white;
+  border: 2px solid #ffff;
+}
+
+/* Icon dalam tombol */
+.btn_action svg {
+  font-size: 20px;
+}
+.nama {
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #01244a;
+}
