@@ -15,7 +15,7 @@ function App() {
     {
       label: "Instagram",
       icon: <FaInstagram />,
-      link: "https://www.instagram.com/zzall_17?igsh=d294OTM1cGtlYzh6",
+      link: "https://www.instagram.com/izall10_?igsh=d294OTM1cGtlYzh6",
     },
     {
       label: "Linkedin",
@@ -25,12 +25,12 @@ function App() {
     {
       label: "TikTok",
       icon: <FaTiktok />,
-      link: "https://www.tiktok.com/@js_zal10?_t=8oHQilfoVxi&_r=1",
+      link: "https://www.tiktok.com/@js_100705?_t=ZS-8tUCnXSrSQK&_r=1",
     },
     {
       label: "Discord",
       icon: <FaDiscord />,
-      link: "https://discord.com/invite/VykGrj6P",
+      link: "discordapp.com/users/1174005395132530759",
     },
     {
       label: "Portfolio",
@@ -51,7 +51,7 @@ function App() {
         <div className="card_body">
           <div className="profile">
             <img src="/izal.png" className="avatar" />
-            <h1>Afrizal</h1>
+            <h1>Adi Juliyanto Afrizal</h1>
             <p className="text1">Junior Web Developer</p>
             <p className="text2">
               "Ngoding itu mudah, tapi ngoding yang benar itu susah. Jadi,
